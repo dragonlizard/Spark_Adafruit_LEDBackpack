@@ -18,7 +18,7 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-#include "Adafruit_GFX.h"
+//#include "Adafruit_GFX.h"
 
 #define LED_ON 1
 #define LED_OFF 0
@@ -58,7 +58,7 @@ class Adafruit_LEDBackpack {
   uint8_t i2c_addr;
 };
 
-class Adafruit_8x8matrix : public Adafruit_LEDBackpack, public Adafruit_GFX {
+/*class Adafruit_8x8matrix : public Adafruit_LEDBackpack, public Adafruit_GFX {
  public:
   Adafruit_8x8matrix(void);
 
@@ -74,7 +74,7 @@ class Adafruit_BicolorMatrix : public Adafruit_LEDBackpack, public Adafruit_GFX 
   void drawPixel(int16_t x, int16_t y, uint16_t color);
 
  private:
-};
+};*/
 
 
 #define DEC 10
