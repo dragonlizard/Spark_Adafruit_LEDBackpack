@@ -20,8 +20,8 @@
 
 //#include "Adafruit_GFX.h"
 
-typedef uint16_t word;
-typedef uint8_t byte;
+#define uint16_t word
+#define uint8_t byte
 
 #define LED_ON 1
 #define LED_OFF 0
