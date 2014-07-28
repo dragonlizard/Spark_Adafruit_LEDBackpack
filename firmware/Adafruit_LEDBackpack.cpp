@@ -19,7 +19,7 @@
  ****************************************************/
 
 #include "Adafruit_LEDBackpack.h"
-#include "Adafruit_GFX.h"
+//#include "Adafruit_GFX.h"
 
 static const uint8_t numbertable[] = { 
 	0x3F, /* 0 */
@@ -88,7 +88,7 @@ void Adafruit_LEDBackpack::clear(void) {
   }
 }
 
-Adafruit_8x8matrix::Adafruit_8x8matrix(void) : Adafruit_GFX(8, 8) {
+/*Adafruit_8x8matrix::Adafruit_8x8matrix(void) : Adafruit_GFX(8, 8) {
 }
 
 void Adafruit_8x8matrix::drawPixel(int16_t x, int16_t y, uint16_t color) {
@@ -155,7 +155,7 @@ void Adafruit_BicolorMatrix::drawPixel(int16_t x, int16_t y, uint16_t color) {
   } else if (color == LED_OFF) {
     displaybuffer[y] &= ~(1 << x) & ~(1 << (x+8));
   }
-}
+}*/
 
 Adafruit_7segment::Adafruit_7segment(void) {
   position = 0;
