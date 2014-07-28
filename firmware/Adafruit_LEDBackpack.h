@@ -19,9 +19,8 @@
  ****************************************************/
 
 //#include "Adafruit_GFX.h"
-
-//#define uint16_t word
-//#define uint8_t byte
+#include "application.h"
+#include "main.h"
 
 #define LED_ON 1
 #define LED_OFF 0
